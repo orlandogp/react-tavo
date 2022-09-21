@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export const useHome = () => {
+export const useNavigation = () => {
 	const [response, setResponse] = useState({});
 	const [isLoading, setIsLoading] = useState(true);
 	const [isError, setIsError] = useState(false);

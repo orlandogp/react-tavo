@@ -1,14 +1,10 @@
-// REACT
 import React from "react";
-//COMPONENTS
 import { Layout } from "../../components";
-//HOOKS
-//UTILS
 
-export const HomePage = () => {
+export const Locations = () => {
 	return (
 		<Layout>
-			<h1>Home Page</h1>
+			<h1>Location</h1>
 		</Layout>
 	);
 };
