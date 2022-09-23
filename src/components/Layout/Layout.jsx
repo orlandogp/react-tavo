@@ -6,10 +6,7 @@ export const Layout = ({ children }) => {
 	return (
 		<>
 			<Navigation />
-
 			{children}
-
-			<h1>Footer</h1>
 		</>
 	);
 };
