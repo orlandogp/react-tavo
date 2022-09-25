@@ -6,7 +6,7 @@ export const Characters = () => {
 	const { characters, isError, isLoading } = useCharacters();
 	return (
 		<Layout>
-			<h1 className="title">Characters</h1>
+			<h1 className='title'>Explore all characters</h1>
 			{isLoading ? (
 				<Loading />
 			) : isError ? (

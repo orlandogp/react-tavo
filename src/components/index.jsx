@@ -1,5 +1,7 @@
 export * from "./Navigation";
-export * from "./Layout";
-export * from "./Loading";
-export * from "./Error";
 export * from "./Character";
+export * from "./Loading";
+export * from "./Layout";
+// export * from "./Footer";
+export * from "./Error";
+export * from "./Home";
