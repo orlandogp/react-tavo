@@ -6,7 +6,7 @@ export const Navigation = () => {
 	const { response } = useNavigation();
 	return (
 		<>
-			<nav className='bg-transparent sticky top-0 px-60 py-2 z-50 flex justify-between items-center gap-10 text-green-600 hover:bg-opacity-80  hover:bg-black'>
+			<nav className='bg-black bg-opacity-80 sticky top-0 px-60 z-50 flex justify-between items-center gap-10 text-green-600 '>
 				<a href='/'>
 					<img
 						className='w-32'
