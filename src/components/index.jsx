@@ -5,3 +5,4 @@ export * from "./Layout";
 // export * from "./Footer";
 export * from "./Error";
 export * from "./Home";
+export * from "./Location";

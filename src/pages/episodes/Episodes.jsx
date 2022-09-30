@@ -5,7 +5,7 @@ import { Layout } from "../../components";
 export const Episodes = () => {
 	return (
 		<Layout>
-			<h1>Episodes</h1>
+			<h1 className='title'>Explore all characters</h1>
 		</Layout>
 	);
 };
