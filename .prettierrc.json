@@ -1,0 +1,11 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "brackets": false,
+  "arrowParens": "avoid"
+}

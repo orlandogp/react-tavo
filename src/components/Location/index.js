@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./ListLocations";
+import './styles.css'
+export * from './ListLocations'

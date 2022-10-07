@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react'
 
-import { Navigation, Footer } from "../../components";
+import { Navigation, Footer } from '../../components'
 
 export const Layout = ({ children }) => {
-	return (
-		<>
-			<Navigation />
-			{children}
-			{/* <Footer /> */}
-		</>
-	);
-};
+  return (
+    <>
+      <Navigation />
+      {children}
+      {/* <Footer /> */}
+    </>
+  )
+}

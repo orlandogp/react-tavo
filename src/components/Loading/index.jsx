@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./Loading";
+import './styles.css'
+export * from './Loading'

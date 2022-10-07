@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./Spinner";
+import './styles.css'
+export * from './Spinner'

@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./Episodes";
+import './styles.css'
+export * from './Episodes'

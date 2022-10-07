@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./Home";
+import './styles.css'
+export * from './Home'

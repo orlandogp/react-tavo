@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./Error";
+import './styles.css'
+export * from './Error'

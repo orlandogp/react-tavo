@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./Footer";
+import './styles.css'
+export * from './Footer'

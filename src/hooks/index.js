@@ -1,3 +1,3 @@
-export * from "./Navigation";
-export * from "./Characters";
-export * from "./Locations";
+export * from './Navigation'
+export * from './Character'
+export * from './Location'

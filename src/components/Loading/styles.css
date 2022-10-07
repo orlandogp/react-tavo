@@ -1,6 +1,6 @@
 .loading {
-	@apply flex w-screen h-screen bg-slate-50 p-5 justify-center items-center flex-col;
+  @apply flex w-screen h-screen bg-slate-50 p-5 justify-center items-center flex-col;
 }
 .loading-text {
-	@apply text-3xl text-blue-600 font-semibold;
+  @apply text-3xl text-blue-600 font-semibold;
 }

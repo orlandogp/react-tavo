@@ -1,2 +1,2 @@
-import "./styles.css";
-export * from "./Navigation";
+import './styles.css'
+export * from './Navigation'
