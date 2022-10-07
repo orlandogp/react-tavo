@@ -7,24 +7,15 @@ export const CardLocation = ({ location = {} }) => {
         <a href={location.url} className="cursor-pointer">
           <figure>
             <figcaption className="p-4">
-              <p
-                className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300"
-                x-text="post.title"
-              >
+              <p className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300">
                 {location.name}
               </p>
 
               <div className="flex flex-col gap-1">
-                <small
-                  className="leading-5 text-gray-500 dark:text-gray-400"
-                  x-text="post.description"
-                >
+                <small className="leading-5 text-gray-500 dark:text-gray-400">
                   Type: {location.type}
                 </small>
-                <small
-                  className="leading-5 text-gray-500 dark:text-gray-400"
-                  x-text="post.description"
-                >
+                <small className="leading-5 text-gray-500 dark:text-gray-400">
                   Dimension: {location.dimension}
                 </small>
               </div>

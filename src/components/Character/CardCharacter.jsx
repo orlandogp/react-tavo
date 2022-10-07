@@ -13,36 +13,21 @@ export const CardCharacter = ({ character = {} }) => {
             />
 
             <figcaption className="p-4">
-              <p
-                className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300"
-                x-text="post.title"
-              >
+              <p className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300">
                 {character.name}
               </p>
 
               <div className="flex flex-col gap-1">
-                <small
-                  className="leading-5 text-gray-500 dark:text-gray-400"
-                  x-text="post.description"
-                >
+                <small className="leading-5 text-gray-500 dark:text-gray-400">
                   Species: {character.species}
                 </small>
-                <small
-                  className="leading-5 text-gray-500 dark:text-gray-400"
-                  x-text="post.description"
-                >
+                <small className="leading-5 text-gray-500 dark:text-gray-400">
                   Gender: {character.gender}
                 </small>
-                <small
-                  className="leading-5 text-gray-500 dark:text-gray-400"
-                  x-text="post.description"
-                >
+                <small className="leading-5 text-gray-500 dark:text-gray-400">
                   Status: {character.status}
                 </small>
-                <small
-                  className="leading-5 text-gray-500 dark:text-gray-400"
-                  x-text="post.description"
-                >
+                <small className="leading-5 text-gray-500 dark:text-gray-400">
                   Origin: {character.origin.name}
                 </small>
               </div>

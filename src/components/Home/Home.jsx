@@ -9,9 +9,9 @@ export const Home = () => {
             <h1 className="text-8xl text-left py-10">Rick & Morty</h1>
             <h2 className="text-2xl font-light">
               Rick, an alcoholic sociopath and scientist, lives with his
-              daughter Beth's family. Apart from building gadgets, he takes his
-              morally right but dimwit grandson Morty on absurd intergalactic
-              adventures.
+              daughter Beth&apos;s family. Apart from building gadgets, he takes
+              his morally right but dimwit grandson Morty on absurd
+              intergalactic adventures.
             </h2>
             <a
               className="button-primary"

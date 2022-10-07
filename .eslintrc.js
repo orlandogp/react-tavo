@@ -3,6 +3,7 @@ const RULES = {
   waning: 'waning',
   error: 'error'
 }
+
 module.exports = {
   env: {
     browser: true,
@@ -24,6 +25,8 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'no-unused-vars': RULES.error,
-    'prettier/prettier': RULES.error
+    'prettier/prettier': RULES.error,
+    'react/prop-types': RULES.off,
+    'react/no-unknown-property': ['error', { ignore: ['css'] }]
   }
 }
