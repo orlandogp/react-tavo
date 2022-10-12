@@ -20,6 +20,7 @@
       }
     ],
     "declaration-block-trailing-semicolon": null,
-    "no-descending-specificity": null
+    "no-descending-specificity": null,
+    "order/properties-alphabetical-order": true
   }
 }
