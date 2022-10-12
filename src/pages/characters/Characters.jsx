@@ -10,7 +10,7 @@ export const Characters = () => {
       {isLoading ? (
         <Loading />
       ) : isError ? (
-        <Error />
+        <Error page="characters" />
       ) : (
         <ListCharacter character={characters} />
       )}

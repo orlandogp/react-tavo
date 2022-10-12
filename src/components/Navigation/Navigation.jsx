@@ -21,9 +21,12 @@ export const Navigation = () => {
                 className="cursor-pointer hover:text-orange-500 font-bold"
                 key={index}
               >
-                <Link to={key}>{key.toUpperCase()}</Link>
+                <Link to={`/${key}`}>{key.toUpperCase()}</Link>
               </li>
             ))}
+          <li className="cursor-pointer hover:text-orange-500 font-bold uppercase">
+            <Link to={`/favorites`}>Favorites</Link>
+          </li>
           <a
             className="button-primary-menu"
             href="https://shorturl.at/JLS67"

@@ -12,7 +12,7 @@ export const Episodes = () => {
       {isLoading ? (
         <Loading />
       ) : isError ? (
-        <Error />
+        <Error page="episodes" />
       ) : (
         <ListEpisode episodes={episodes} />
       )}
